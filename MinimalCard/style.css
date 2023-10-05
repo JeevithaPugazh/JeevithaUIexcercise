@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: start;
     height: 100vh;
