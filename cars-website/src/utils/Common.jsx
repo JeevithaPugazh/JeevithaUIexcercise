@@ -4,6 +4,7 @@ export const getRandomPrice = () => {
   return Math.floor(Math.random() * (30000 - 10000)) + 10000;
 };
 
+//Get all car list
 export const carList = (originalData) => {
   let listOfCars = originalData.forEach((car) => {
     listOfCars[car.car] = { ...car };
