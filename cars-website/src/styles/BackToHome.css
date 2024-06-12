@@ -1,0 +1,13 @@
+.back-to-home {
+  margin-top: 20px;
+  margin-left: 1.5rem;
+}
+
+.back-to-home a {
+  color: gray; /* Set the link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.back-to-home a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

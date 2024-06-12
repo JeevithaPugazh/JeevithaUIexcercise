@@ -1,0 +1,33 @@
+.pagination-container {
+  bottom: 0;
+  width: 100%;
+
+  box-sizing: border-box;
+  background-color: #fefefe;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+}
+
+.page-count {
+  width: 20rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.select-itemsPerPage,
+.select-page {
+  width: 5rem;
+  padding: 10px;
+  height: fit-content;
+  border-radius: 5px;
+}

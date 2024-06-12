@@ -1,0 +1,29 @@
+.btn {
+  background-color: rgb(71, 71, 71);
+  width: fit-content;
+  padding: 10px;
+  height: fit-content;
+  border-radius: 5px;
+  color: #f8f8f8;
+  width: 5rem;
+}
+
+.btn:hover {
+  background-color: #f8f8f8;
+  border: rgb(71, 71, 71);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(71, 71, 71);
+}
+
+.btn:active {
+  background-color: rgb(71, 71, 71);
+  border: #f8f8f8;
+  border-style: solid;
+  border-width: 1px;
+  color: #f8f8f8;
+}
+.btn:disabled {
+  background-color: gray;
+  color: rgb(71, 71, 71);
+}

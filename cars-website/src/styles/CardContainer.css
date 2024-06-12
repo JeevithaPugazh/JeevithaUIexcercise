@@ -1,0 +1,21 @@
+.card-container {
+  width: 100%;
+  height: calc(100% - 15%);
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+  background-color: #fefefe;
+  padding: 5px;
+}
+.card-container-header {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  padding-right: 5px;
+  position: relative;
+}
+
+.card-container-header div {
+  width: 20rem;
+  display: flex;
+  justify-content: end;
+}
